@@ -1,0 +1,98 @@
+html{
+    background-image: url("./assets/sky.png");
+    background-size: 100vw 100vh;
+    position: absolute;
+}
+
+#island{
+    width: 60%;
+    height: auto;
+    top: 100px;
+    right: 200px;
+    float: right;
+    margin-top: 10%;
+    z-index: 1;
+ 
+
+}
+
+#main-tittle{
+    z-index: 1;
+    top: 40px;
+    left: 50px;
+    font-size: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+}
+
+/* NAMING 1-5 Indicate left to right, 1 is the one on the left, 2 is right next to 1, and so on... */
+
+#cloud1{
+    width: 30%;
+    height: auto;
+    left: 70px;
+    top: 140px;
+    z-index: 100;
+    position: absolute;
+}
+
+#cloud2{
+    width: 20%;
+    height: auto;
+    left: 750px;
+    top: 20px;
+    z-index: -10;
+    position: absolute;
+}
+
+#cloud3{
+    width: 20%;
+    height: auto;
+    right: 300px;
+    top: 70px;
+    z-index: -10;
+    position: absolute;
+}
+
+#rock1{
+    width: 30%;
+    height: auto;
+    opacity: 95%;
+    top: 300px;
+    left: 100px;
+    z-index: 1000;
+    position: absolute;
+}
+
+#rock2{
+    width: 15%;
+    height: auto;
+    opacity: 85%;
+    bottom: 300px;
+    left: 750px;
+    z-index: 1000;
+    position: absolute;
+}
+
+#rock3{
+    width: 15%;
+    height: auto;
+    opacity: 80%;
+    bottom: 75px;
+    right: 550px;
+    z-index: -10;
+    position: absolute;
+}
+
+#rock5{
+    width: 15%;
+    height: auto;
+    opacity: 80%;
+    bottom: 125px;
+    right: 0px;
+    z-index: 1000;
+    position: absolute;
+}
+
+
+
