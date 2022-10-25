@@ -1,3 +1,4 @@
+// Move Horizontally
 window.addEventListener("load", (event) => {
     let distance = 0
     let direction = 1
@@ -14,6 +15,7 @@ window.addEventListener("load", (event) => {
     })
 })
 
+// Rotation
 window.addEventListener("load", (event) => {
     let angle = 1
     let timer = setInterval(()=>{
